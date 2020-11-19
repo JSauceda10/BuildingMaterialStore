@@ -13,5 +13,13 @@
     <PackageReference Include="SwashBuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Messages\DataTransferObjects\" />
+    <Folder Include="Messages\Request\" />
+    <Folder Include="Messages\Response\" />
+    <Folder Include="Repositories\Implementations\" />
+    <Folder Include="Services\Implementations\" />
+  </ItemGroup>
+
 
 </Project>
